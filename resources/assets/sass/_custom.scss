@@ -1,0 +1,239 @@
+.navbar-default .nav .dropdown-menu li a{
+    font-weight: 700;
+    color: green;
+    border-color:limegreen;
+}
+.navbar-default .nav .dropdown-menu li a:hover {
+    font-weight: 700;
+    color: black;
+    border-color:limegreen;
+}
+/* navbar */
+.navbar-default{
+    background-color: #8DCA8D;
+    border-color:limegreen;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default.navbar-right .navbar-brand:hover,
+.navbar-default.navbar-right .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: green;
+    font-weight: 900;
+}
+li.dropdown:hover > ul.dropdown-menu{
+    display: block;
+    background-color: #8DCA8D;
+    font-weight: 900;
+
+}
+
+body{
+	background:whitesmoke  !important
+}
+
+a:link {
+    color:black;
+}
+a:hover {
+    color: #01AA19;
+}
+
+//FOOTER
+#myFooter {
+    background-color: limegreen;
+    padding-top: 10px;
+}
+
+#map-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#myFooter .row {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+    background-color: darkgreen;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+#myFooter .fa {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: limegreen;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover {
+    color: red;
+}
+
+#myFooter .fa-google-plus:focus {
+    color: red;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 481px){
+    
+    img {
+        max-width: 100%;
+      }
+    
+    
+    }
+
+    @keyframes slider {
+        
+        0% {
+            left: 0;
+        }
+        
+        20% {
+            left: 0;
+        }
+        
+        25% {
+            left: -100%;
+        }
+        
+        45% {
+            left: -100%;
+        
+        }
+        
+        50% {
+                left: -200%;
+        
+        }
+        
+        70% {
+            left: -200%;
+        }
+        
+        75% {
+            left: -300%;
+        }
+        
+        95% {
+            left: -300%;
+        }
+        
+        100% {
+            left: -400%;
+        
+        }
+        
+        }
+        
+        #slider {
+            overflow: hidden;
+        }
+        
+        #slider figure img {
+            width: 40%;
+            float: left;
+        }
+        
+        #slider figure {
+            position: relative;
+            width: 100%;
+            margin: 0;
+            left: 0;
+            text-align: left;
+            font-size: 0;
+            animation: 20s slider infinite; 
+        
+        }
+        #video{
+        position: absolute;
+           width:150%;
+       
+        }
+        @media only screen and (max-width: 599px)
+        
+        {
+        /* General settings for Mobile */
+        body{width:auto!important;}
+        table.fullWidth  {width: 100%!important;}
+        
+        }
